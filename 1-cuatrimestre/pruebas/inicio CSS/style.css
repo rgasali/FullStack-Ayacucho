@@ -1,0 +1,30 @@
+.cabecera{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 300px;
+    text-align: center;
+    display: block;
+    color: aquamarine;
+    font-size: 40px;
+    text-justify: auto;
+}
+.imgFondo{
+    background-image: url(../../../imagenes/gimnasio-11_550_750.jpg);
+    background-size: cover;
+    background-attachment: fixed; /*deja la imagen pegada */
+}
+
+.listaGruposMusculares{
+    display: block;
+    box-sizing: border-box;
+    border: solid thick grey;
+    background-color: lightgrey;
+    padding-left: 100px;
+    margin-right: 70%;
+}
+
+.itemGrupo{
+    font-size: 30px;
+    
+}
