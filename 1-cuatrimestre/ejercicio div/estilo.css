@@ -90,7 +90,7 @@
 .divMenu{
     background-color: green;
     width: 40%;
-    height: 1.5rem;   
+    height: 30%;   
     margin-left: 40%;
     padding-left: 1em;
     border:thin solid black;
@@ -101,7 +101,7 @@
     background-color: blue;
     width: 20%;
     display: inline-block;
-    height: 1.5rem;
+    height:  30%;
     padding-left: 1em;
     color: white;
     border:thin solid black;
@@ -111,7 +111,7 @@
     background-color: darkred; 
     width: 60%;
     display: inline-block;
-    height: 1.5rem;
+    height:  30%;
     padding-left: 1em;
     color: white;
     border:thin solid black;
@@ -122,7 +122,7 @@
     display: inline-block;
     color: white;
     width: 22%;
-    height: 1.5rem;
+    height:  30%;
     padding-left: 2%;
     border:thin solid black;
       
