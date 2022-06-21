@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutricion</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="cabecera imgFondo">
+        <h1>Tu cuerpo en linea</h1>
+        <button class="usuario">iniciar sesion</button> 
+    </div>
+    </div>
+    <div class="contenedor">
+        <nav class="menu">
+            <a href="../html/index.html"><button class="seccion1">Inicio</button></a> 
+            <a href="../html/suplementos.html"><button class="seccion2">Suplementos</button></a> 
+            <a href="../html/ejercicios.html"><button class="seccion3">Ejercicios</button></a> 
+            <a href="../html/rutinas.html"><button class="seccion4">Rutinas</button></a> 
+            <a href="../html/nutricion.html"><button class="seccion5">Nutricion</button></a>
+            <a href="../html/contacto.html"><button class="seccion6">Contacto</button></a>
+            <a href="../html/mis-compras.html"><button class="seccion7">Mis compras</button></a>
+        </nav>
+        <div class="principal">
+            <h2>Nutricion</h2>
+            <div class="nutricion">
+                <h3>calcula tu gasto calorico diario</h3>
+                <div class="calculo-calorias">
+                    selecciona tu sexo 
+                    <br>
+                    Mujer <input type="radio" name="sexo" id="mujer" value="dama">
+                    <br>
+                    Hombre <input type="radio" name="sexo" id="hombre" value="varon">
+                    <br>
+                    <br>
+                    introduce tu peso en kg 
+                    <input type="number" name="peso" id="peso" value="50">
+                    <br>
+                    <br>
+                    introduce tu altura en centimetros
+                    <input type="number" name="altura" id="altura">
+                    <br>
+                    <br>
+                    introduce tu edad en años
+                    <input type="number" name="edad" id="edad">
+                    <br>
+                    <br>
+                    <button id="btnCalcularMetabolismo" class="btn-calc-metabolismo">Calcular</button>
+                    <br>
+                    <br>
+                    <div id="divResultadoMetabolismo">Tu metabolismo basal es</div> 
+                </div>
+                <h3>tabla nutricional</h3>
+                <div>
+                    <table class="tabla-alimentos">
+                        <thead>
+                            <th>Alimento</th>
+                            <th>kcal</th>
+                            <th>Hidratos</th>
+                            <th>Proteinas</th>
+                            <th>Grasas</th>
+                        </thead>
+                        <tr>
+                            <td>manzana</td>
+                            <td>64</td>
+                            <td>14</td>
+                            <td>0.3</td>
+                            <td>0.2</td>
+                        </tr><tr>
+                            <td>banana</td>
+                            <td>89</td>
+                            <td>23</td>
+                            <td>1.1</td>
+                            <td>0.3</td>
+                        </tr><tr>
+                            <td>naranja</td>
+                            <td>43</td>
+                            <td>12</td>
+                            <td>0.9</td>
+                            <td>0.1</td>
+                        </tr><tr>
+                            <td>frutilla</td>
+                            <td>40</td>
+                            <td>5.7</td>
+                            <td>0.7</td>
+                            <td>0.3</td>
+                        </tr><tr>
+                            <td>papa</td>
+                            <td>70</td>
+                            <td>15</td>
+                            <td>1.6</td>
+                            <td>0.1</td>
+                        </tr><tr>
+                            <td>espinacas</td>
+                            <td>22</td>
+                            <td>0.6</td>
+                            <td>2.5</td>
+                            <td>0.5</td>
+                        </tr><tr>
+                            <td>tomate</td>
+                            <td>25</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>0.2</td>
+                        </tr><tr>
+                            <td>brocoli</td>
+                            <td>37</td>
+                            <td>1.8</td>
+                            <td>4.4</td>
+                            <td>1</td>
+                        </tr><tr>
+                            <td>nalga</td>
+                            <td>129</td>
+                            <td>0</td>
+                            <td>22</td>
+                            <td>3.8</td>
+                        </tr><tr>
+                            <td>atun</td>
+                            <td>130</td>
+                            <td>0</td>
+                            <td>29</td>
+                            <td>0.6</td>
+                        </tr><tr>
+                            <td>huevo</td>
+                            <td>155</td>
+                            <td>1.1</td>
+                            <td>13</td>
+                            <td>11</td>
+                        </tr>
+                        <tr>
+                            <td>batata</td>
+                            <td>86</td>
+                            <td>20</td>
+                            <td>1.6</td>
+                            <td>0.1</td>
+                        </tr>
+                        <tr>
+                            <td>nueces</td>
+                            <td>600</td>
+                            <td>21</td>
+                            <td>20</td>
+                            <td>54</td>
+                        </tr>
+                        <tr>
+                            <td>pasas de uva</td>
+                            <td>298</td>
+                            <td>79</td>
+                            <td>3.1</td>
+                            <td>0.5</td>
+                        </tr>
+                        <tr>
+                            <td>palta</td>
+                            <td>160</td>
+                            <td>9</td>
+                            <td>2</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>pechuga de pollo</td>
+                            <td>165</td>
+                            <td>0</td>
+                            <td>31</td>
+                            <td>3.6</td>
+                        </tr>
+                        <tr>
+                            <td>avena</td>
+                            <td>68</td>
+                            <td>12</td>
+                            <td>2.4</td>
+                            <td>1.4</td>
+                        </tr>
+                        <tr>
+                            <td>proteina en polvo</td>
+                            <td>400</td>
+                            <td>23</td>
+                            <td>70</td>
+                            <td>3</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="publicidades">espacio publicitario
+
+        </div>
+    </div>      
+</body>
+<script src="../typescript/nutricion.js"></script>
+</html>

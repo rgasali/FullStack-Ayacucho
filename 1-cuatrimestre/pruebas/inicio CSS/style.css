@@ -10,9 +10,10 @@
     text-justify: auto;
 }
 .imgFondo{
-    background-image: url(../../../imagenes/gimnasio-11_550_750.jpg);
+   
     background-size: cover;
     background-attachment: fixed; /*deja la imagen pegada */
+    background-image: url(../../../imagenes/gimnasio-11_550_750.jpg);
 }
 
 .listaGruposMusculares{
